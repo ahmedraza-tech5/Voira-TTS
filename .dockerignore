@@ -1,0 +1,26 @@
+# Build context se exclude — sirf backend + chatterbox + preset voices chahiye
+frontend
+frontend/*
+*.md
+DEPLOY.md
+README.md
+docker-compose.yml
+.vercelignore
+.git
+.gitignore
+*.log
+*.sh
+install_*.sh
+reinstall.*
+warmup.*
+backend/server*.log
+backend/e2e*.log
+backend/.env
+backend/.venv
+backend/Dockerfile
+backend/.dockerignore
+**/__pycache__
+**/*.pyc
+# transient audio (presets rakho, generations hatao)
+backend/data/generations/*
+backend/data/uploads/*
