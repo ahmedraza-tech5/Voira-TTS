@@ -1,0 +1,10 @@
+{
+  "id": "studio_aria",
+  "name": "Aria",
+  "description": "Young American female \u2014 bright, warm and confident. Perfect for YouTube, podcasts & ads.",
+  "kind": "preset",
+  "created_at": 1791742407.8717606,
+  "duration_s": 11.607,
+  "sort_order": 1,
+  "generator": "kokoro-82m-int8"
+}

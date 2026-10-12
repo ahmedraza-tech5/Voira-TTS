@@ -1,0 +1,22 @@
+INFO:     Started server process [18508]
+INFO:     Waiting for application startup.
+2026-10-12 11:53:01,833 voice_studio INFO Marked 1 stale history entries as failed
+2026-10-12 11:53:01,858 voice_studio INFO Voice Studio API up — model=nano data=/root/tts/backend/data mp3=True
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:47378 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47388 - "GET /health HTTP/1.1" 404 Not Found
+2026-10-12 11:53:54,532 voice_studio.engine INFO Loading Chatterbox 'nano' on cpu ...
+INFO:     127.0.0.1:47394 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47400 - "GET /health HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47408 - "GET /health HTTP/1.1" 404 Not Found
+2026-10-12 11:55:40,206 httpx INFO HTTP Request: GET https://huggingface.co/api/models/ResembleAI/chatterbox-nano/revision/main "HTTP/1.1 200 OK"
+Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]Fetching 10 files:  10%|█         | 1/10 [00:00<00:01,  7.47it/s]Fetching 10 files: 100%|██████████| 10/10 [00:00<00:00, 53.09it/s]
+INFO:     127.0.0.1:47430 - "GET /health HTTP/1.1" 404 Not Found
+/root/tts/backend/.venv/lib/python3.12/site-packages/diffusers/models/lora.py:393: FutureWarning: `LoRACompatibleLinear` is deprecated and will be removed in version 1.0.0. Use of `LoRACompatibleLinear` is deprecated. Please switch to PEFT backend by installing PEFT: `pip install peft`.
+  deprecate("LoRACompatibleLinear", "1.0.0", deprecation_message)
+INFO:     127.0.0.1:47440 - "GET /health HTTP/1.1" 404 Not Found
+2026-10-12 11:56:32,906 root INFO input frame rate=25
+INFO:     127.0.0.1:47458 - "GET /health HTTP/1.1" 404 Not Found
+2026-10-12 11:57:02,892 perth.perth_net.perth_net_implicit.model.perth_net INFO loaded PerthNet (Implicit) at step 250,000
+2026-10-12 11:57:03,036 voice_studio.engine INFO Model ready (sr=24000)

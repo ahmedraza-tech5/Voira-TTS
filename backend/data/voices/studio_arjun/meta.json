@@ -1,0 +1,10 @@
+{
+  "id": "studio_arjun",
+  "name": "Arjun",
+  "description": "Indian-English male \u2014 rich, friendly and authoritative. Ideal for ads, narrations & online courses.",
+  "kind": "preset",
+  "created_at": 1791760519.575113,
+  "duration_s": 16.851,
+  "sort_order": 14,
+  "generator": "kokoro-82m-int8"
+}

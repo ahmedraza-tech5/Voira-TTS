@@ -1,0 +1,10 @@
+{
+  "id": "studio_fable",
+  "name": "Fable",
+  "description": "Elderly storyteller \u2014 warm, wise and grandfatherly. Lovely for audiobooks, fables & bedtime stories.",
+  "kind": "preset",
+  "created_at": 1791760521.5144396,
+  "duration_s": 16.946,
+  "sort_order": 12,
+  "generator": "kokoro-82m-int8"
+}

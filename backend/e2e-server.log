@@ -1,0 +1,97 @@
+INFO:     Started server process [3799]
+INFO:     Waiting for application startup.
+2026-10-11 19:32:35,233 voice_studio INFO Voice Studio API up — model=nano data=/root/tts/backend/data mp3=True
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:58036 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58048 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58052 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58056 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58060 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58064 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58068 - "GET /api/health HTTP/1.1" 200 OK
+2026-10-11 19:33:16,426 voice_studio.engine INFO Loading Chatterbox 'nano' on cpu ...
+INFO:     127.0.0.1:58072 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58076 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58080 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58094 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58098 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58102 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58106 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58110 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58114 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58118 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58122 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58126 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58130 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58134 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58138 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58142 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58146 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58150 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58156 - "GET /api/health HTTP/1.1" 200 OK
+2026-10-11 19:34:40,117 httpx INFO HTTP Request: GET https://huggingface.co/api/models/ResembleAI/chatterbox-nano/revision/main "HTTP/1.1 200 OK"
+Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]Fetching 10 files:  50%|█████     | 5/10 [00:00<00:00, 46.90it/s]Fetching 10 files: 100%|██████████| 10/10 [00:00<00:00, 83.47it/s]
+INFO:     127.0.0.1:58160 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58164 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58168 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58172 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58176 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58180 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58184 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58188 - "GET /api/health HTTP/1.1" 200 OK
+/root/tts/backend/.venv/lib/python3.12/site-packages/diffusers/models/lora.py:393: FutureWarning: `LoRACompatibleLinear` is deprecated and will be removed in version 1.0.0. Use of `LoRACompatibleLinear` is deprecated. Please switch to PEFT backend by installing PEFT: `pip install peft`.
+  deprecate("LoRACompatibleLinear", "1.0.0", deprecation_message)
+INFO:     127.0.0.1:58192 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58196 - "GET /api/health HTTP/1.1" 200 OK
+2026-10-11 19:35:29,589 root INFO input frame rate=25
+INFO:     127.0.0.1:58200 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58206 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58210 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58214 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58218 - "GET /api/health HTTP/1.1" 200 OK
+2026-10-11 19:35:58,010 perth.perth_net.perth_net_implicit.model.perth_net INFO loaded PerthNet (Implicit) at step 250,000
+2026-10-11 19:35:58,112 voice_studio.engine INFO Model ready (sr=24000)
+INFO:     127.0.0.1:58226 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58230 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58234 - "GET /api/config HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58238 - "POST /api/generate HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58242 - "GET /api/jobs/2a3faad1ea9a HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58246 - "GET /api/jobs/2a3faad1ea9a HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58250 - "GET /api/jobs/2a3faad1ea9a HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58254 - "GET /api/jobs/2a3faad1ea9a HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58258 - "GET /api/jobs/2a3faad1ea9a HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58262 - "GET /api/jobs/2a3faad1ea9a HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58266 - "GET /api/jobs/2a3faad1ea9a HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58270 - "GET /api/jobs/2a3faad1ea9a HTTP/1.1" 200 OK
+  0%|          | 0/1000 [00:00<?, ?it/s]INFO:     127.0.0.1:58274 - "GET /api/jobs/2a3faad1ea9a HTTP/1.1" 200 OK
+  0%|          | 1/1000 [00:02<44:14,  2.66s/it]INFO:     127.0.0.1:58278 - "GET /api/jobs/2a3faad1ea9a HTTP/1.1" 200 OK
+  0%|          | 2/1000 [00:04<38:34,  2.32s/it]INFO:     127.0.0.1:58282 - "GET /api/jobs/2a3faad1ea9a HTTP/1.1" 200 OK
+  0%|          | 3/1000 [00:06<35:20,  2.13s/it]INFO:     127.0.0.1:58286 - "GET /api/jobs/2a3faad1ea9a HTTP/1.1" 200 OK
+  0%|          | 4/1000 [00:08<33:42,  2.03s/it]INFO:     127.0.0.1:58290 - "GET /api/jobs/2a3faad1ea9a HTTP/1.1" 200 OK
+  0%|          | 5/1000 [00:10<34:53,  2.10s/it]INFO:     127.0.0.1:58294 - "GET /api/jobs/2a3faad1ea9a HTTP/1.1" 200 OK
+  1%|          | 6/1000 [00:12<30:40,  1.85s/it]  1%|          | 7/1000 [00:12<23:24,  1.41s/it]  1%|          | 8/1000 [00:13<18:46,  1.14s/it]  1%|          | 9/1000 [00:13<16:05,  1.03it/s]INFO:     127.0.0.1:58298 - "GET /api/jobs/2a3faad1ea9a HTTP/1.1" 200 OK
+  1%|          | 10/1000 [00:14<15:48,  1.04it/s]  1%|          | 11/1000 [00:15<13:47,  1.19it/s]  1%|          | 12/1000 [00:15<11:52,  1.39it/s]INFO:     127.0.0.1:58302 - "GET /api/jobs/2a3faad1ea9a HTTP/1.1" 200 OK
+  1%|▏         | 13/1000 [00:16<11:43,  1.40it/s]  1%|▏         | 14/1000 [00:16<10:53,  1.51it/s]  2%|▏         | 15/1000 [00:17<10:34,  1.55it/s]INFO:     127.0.0.1:58306 - "GET /api/jobs/2a3faad1ea9a HTTP/1.1" 200 OK
+  2%|▏         | 16/1000 [00:18<11:13,  1.46it/s]  2%|▏         | 17/1000 [00:18<10:17,  1.59it/s]  2%|▏         | 18/1000 [00:19<09:50,  1.66it/s]  2%|▏         | 19/1000 [00:20<09:57,  1.64it/s]INFO:     127.0.0.1:58310 - "GET /api/jobs/2a3faad1ea9a HTTP/1.1" 200 OK
+  2%|▏         | 20/1000 [00:20<09:53,  1.65it/s]  2%|▏         | 21/1000 [00:21<09:32,  1.71it/s]  2%|▏         | 22/1000 [00:21<09:28,  1.72it/s]INFO:     127.0.0.1:58314 - "GET /api/jobs/2a3faad1ea9a HTTP/1.1" 200 OK
+  2%|▏         | 23/1000 [00:22<11:01,  1.48it/s]  2%|▏         | 24/1000 [00:23<10:37,  1.53it/s]  2%|▎         | 25/1000 [00:23<09:59,  1.63it/s]INFO:     127.0.0.1:58318 - "GET /api/jobs/2a3faad1ea9a HTTP/1.1" 200 OK
+  3%|▎         | 26/1000 [00:24<11:29,  1.41it/s]  3%|▎         | 27/1000 [00:25<10:38,  1.52it/s]  3%|▎         | 28/1000 [00:25<09:50,  1.65it/s]  3%|▎         | 29/1000 [00:26<09:22,  1.73it/s]INFO:     127.0.0.1:58322 - "GET /api/jobs/2a3faad1ea9a HTTP/1.1" 200 OK
+  3%|▎         | 30/1000 [00:27<10:36,  1.52it/s]  3%|▎         | 31/1000 [00:27<10:06,  1.60it/s]  3%|▎         | 32/1000 [00:28<09:55,  1.62it/s]INFO:     127.0.0.1:58326 - "GET /api/jobs/2a3faad1ea9a HTTP/1.1" 200 OK
+  3%|▎         | 33/1000 [00:29<11:12,  1.44it/s]  3%|▎         | 34/1000 [00:29<09:59,  1.61it/s]  4%|▎         | 35/1000 [00:30<09:19,  1.73it/s]  4%|▎         | 36/1000 [00:30<09:06,  1.76it/s]INFO:     127.0.0.1:58330 - "GET /api/jobs/2a3faad1ea9a HTTP/1.1" 200 OK
+  4%|▎         | 37/1000 [00:31<10:52,  1.48it/s]  4%|▍         | 38/1000 [00:31<09:45,  1.64it/s]  4%|▍         | 39/1000 [00:32<09:02,  1.77it/s]  4%|▍         | 40/1000 [00:32<08:51,  1.81it/s]INFO:     127.0.0.1:58334 - "GET /api/jobs/2a3faad1ea9a HTTP/1.1" 200 OK
+  4%|▍         | 41/1000 [00:33<10:26,  1.53it/s]  4%|▍         | 42/1000 [00:34<09:29,  1.68it/s]  4%|▍         | 42/1000 [00:34<13:11,  1.21it/s]
+INFO:     127.0.0.1:58338 - "GET /api/jobs/2a3faad1ea9a HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58342 - "GET /api/jobs/2a3faad1ea9a HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58346 - "GET /api/jobs/2a3faad1ea9a HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58350 - "GET /api/jobs/2a3faad1ea9a HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58354 - "GET /api/jobs/2a3faad1ea9a HTTP/1.1" 200 OK
+S3 Token -> Mel Inference...
+  0%|          | 0/2 [00:00<?, ?it/s]INFO:     127.0.0.1:58358 - "GET /api/jobs/2a3faad1ea9a HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58362 - "GET /api/jobs/2a3faad1ea9a HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58366 - "GET /api/jobs/2a3faad1ea9a HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58370 - "GET /api/jobs/2a3faad1ea9a HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58374 - "GET /api/jobs/2a3faad1ea9a HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58378 - "GET /api/jobs/2a3faad1ea9a HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58382 - "GET /api/jobs/2a3faad1ea9a HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58386 - "GET /api/jobs/2a3faad1ea9a HTTP/1.1" 200 OK

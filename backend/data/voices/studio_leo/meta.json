@@ -1,0 +1,10 @@
+{
+  "id": "studio_leo",
+  "name": "Leo",
+  "description": "Mature British male \u2014 wise, distinguished narrator. Documentaries, history & prestige content.",
+  "kind": "preset",
+  "created_at": 1791742405.7754965,
+  "duration_s": 12.595,
+  "sort_order": 6,
+  "generator": "kokoro-82m-int8"
+}

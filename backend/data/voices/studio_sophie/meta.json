@@ -1,0 +1,10 @@
+{
+  "id": "studio_sophie",
+  "name": "Sophie",
+  "description": "Elegant British female \u2014 refined, polished and professional. Luxury brands, corporate & audiobooks.",
+  "kind": "preset",
+  "created_at": 1791742406.7413943,
+  "duration_s": 12.219,
+  "sort_order": 5,
+  "generator": "kokoro-82m-int8"
+}

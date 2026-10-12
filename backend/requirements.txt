@@ -1,0 +1,26 @@
+fastapi>=0.115,<1.0
+uvicorn[standard]>=0.32
+python-multipart>=0.0.9
+pydantic>=2.7,<3.0
+
+# Chatterbox TTS engine (official: github.com/resemble-ai/chatterbox)
+torch==2.6.0
+torchaudio==2.6.0
+numpy==1.26.4
+librosa==0.11.0
+s3tokenizer
+transformers==5.2.0
+diffusers==0.29.0
+conformer==0.3.2
+safetensors==0.5.3
+spacy-pkuseg
+pykakasi==2.3.0
+pyloudnorm
+omegaconf
+huggingface_hub
+soundfile
+scipy
+# Install chatterbox itself (no extra deps) after the above:
+#   pip install --no-deps -e ./chatterbox
+# Perth watermarking (required by chatterbox):
+#   pip install "resemble-perth @ git+https://github.com/resemble-ai/Perth.git@master"

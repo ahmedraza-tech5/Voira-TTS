@@ -1,0 +1,10 @@
+{
+  "id": "studio_milo",
+  "name": "Milo",
+  "description": "Playful young boy \u2014 cheerful, curious and full of energy. Great for kids stories, cartoons & school content.",
+  "kind": "preset",
+  "created_at": 1791760525.363854,
+  "duration_s": 16.058,
+  "sort_order": 8,
+  "generator": "kokoro-82m-int8"
+}

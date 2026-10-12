@@ -1,0 +1,10 @@
+{
+  "id": "studio_iris",
+  "name": "Iris",
+  "description": "Professional female \u2014 clear, polished and trustworthy. Best for corporate, e-learning & presentations.",
+  "kind": "preset",
+  "created_at": 1791760523.4374359,
+  "duration_s": 15.599,
+  "sort_order": 10,
+  "generator": "kokoro-82m-int8"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "studio_max",
+  "name": "Max",
+  "description": "Young American male \u2014 energetic, clear and friendly. Ideal for tutorials, vlogs & promos.",
+  "kind": "preset",
+  "created_at": 1791742408.6475918,
+  "duration_s": 10.473,
+  "sort_order": 3,
+  "generator": "kokoro-82m-int8"
+}

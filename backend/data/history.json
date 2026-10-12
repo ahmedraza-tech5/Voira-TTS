@@ -1,0 +1,107 @@
+[
+  {
+    "id": "e1e978fd0c35",
+    "created_at": 1791785876.4366577,
+    "text": "Hello from Voira! The new voices are working perfectly.",
+    "text_preview": "Hello from Voira! The new voices are working perfectly.",
+    "voice_id": "studio_nova",
+    "voice_name": "Nova",
+    "status": "failed",
+    "duration_s": 0.0,
+    "model": "Voira Nano",
+    "params": {
+      "exaggeration": 0.5,
+      "cfg_weight": 0.5,
+      "temperature": 0.8,
+      "speed": 1.0,
+      "language_id": null
+    },
+    "wav_url": null,
+    "mp3_url": null,
+    "error": "Interrupted by server restart."
+  },
+  {
+    "id": "181bfd0a6a3d",
+    "created_at": 1791760702.4363298,
+    "text": "Hello! This is a quick test to confirm the new Nova voice is working perfectly inside your text to speech studio.",
+    "text_preview": "Hello! This is a quick test to confirm the new Nova voice is working perfectly inside your text to speech studio.",
+    "voice_id": "studio_nova",
+    "voice_name": "Nova",
+    "status": "failed",
+    "duration_s": 0.0,
+    "model": "Chatterbox Nano",
+    "params": {
+      "exaggeration": 0.5,
+      "cfg_weight": 0.5,
+      "temperature": 0.8,
+      "speed": 1.0,
+      "language_id": null
+    },
+    "wav_url": null,
+    "mp3_url": null,
+    "error": "Interrupted by server restart."
+  },
+  {
+    "id": "1afb40bd267a",
+    "created_at": 1791743114.4076736,
+    "text": "Hello! This is a quick test of the new Aria studio voice. Pretty cool, right?",
+    "text_preview": "Hello! This is a quick test of the new Aria studio voice. Pretty cool, right?",
+    "voice_id": "studio_aria",
+    "voice_name": "Aria",
+    "status": "failed",
+    "duration_s": 0.0,
+    "model": "Chatterbox Nano",
+    "params": {
+      "exaggeration": 0.5,
+      "cfg_weight": 0.5,
+      "temperature": 0.8,
+      "speed": 1.0,
+      "language_id": null
+    },
+    "wav_url": null,
+    "mp3_url": null,
+    "error": "Interrupted by server restart."
+  },
+  {
+    "id": "d2f7f46e28a3",
+    "created_at": 1791734479.9406,
+    "text": "Hey! This is a quick sample so you can hear how the cloned voice sounds.",
+    "text_preview": "Hey! This is a quick sample so you can hear how the cloned voice sounds.",
+    "voice_id": "013777b2b46e",
+    "voice_name": "Mudassir bro",
+    "status": "failed",
+    "duration_s": 0.0,
+    "model": "Chatterbox Nano",
+    "params": {
+      "exaggeration": 0.5,
+      "cfg_weight": 0.5,
+      "temperature": 0.8,
+      "speed": 1.0,
+      "language_id": null
+    },
+    "wav_url": null,
+    "mp3_url": null,
+    "error": "Interrupted by server restart."
+  },
+  {
+    "id": "2a3faad1ea9a",
+    "created_at": 1791729441.0006342,
+    "text": "Hello from the pipeline test.",
+    "text_preview": "Hello from the pipeline test.",
+    "voice_id": "builtin",
+    "voice_name": "Chatterbox Default",
+    "status": "failed",
+    "duration_s": 0.0,
+    "model": "Chatterbox Nano",
+    "params": {
+      "exaggeration": 0.5,
+      "cfg_weight": 0.5,
+      "temperature": 0.8,
+      "speed": 1.0,
+      "language_id": null
+    },
+    "wav_url": null,
+    "mp3_url": null,
+    "error": "Interrupted by server restart."
+  }
+]

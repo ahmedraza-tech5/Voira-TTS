@@ -1,0 +1,10 @@
+{
+  "id": "studio_nova",
+  "name": "Nova",
+  "description": "Young Gen-Z female \u2014 bubbly, bright and confident. Perfect for shorts, reels, gaming & vlogs.",
+  "kind": "preset",
+  "created_at": 1791760526.3236487,
+  "duration_s": 15.696,
+  "sort_order": 7,
+  "generator": "kokoro-82m-int8"
+}

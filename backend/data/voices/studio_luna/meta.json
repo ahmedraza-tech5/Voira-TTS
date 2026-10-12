@@ -1,0 +1,10 @@
+{
+  "id": "studio_luna",
+  "name": "Luna",
+  "description": "Soft youthful female \u2014 sweet, gentle and calming. Great for stories, ASMR & meditation.",
+  "kind": "preset",
+  "created_at": 1791742409.5957332,
+  "duration_s": 12.575,
+  "sort_order": 2,
+  "generator": "kokoro-82m-int8"
+}

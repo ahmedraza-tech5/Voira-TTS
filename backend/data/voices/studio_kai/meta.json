@@ -1,0 +1,10 @@
+{
+  "id": "studio_kai",
+  "name": "Kai",
+  "description": "Casual young male \u2014 modern, friendly and real. Ideal for podcasts, tech reviews & YouTube.",
+  "kind": "preset",
+  "created_at": 1791760524.3991108,
+  "duration_s": 13.298,
+  "sort_order": 9,
+  "generator": "kokoro-82m-int8"
+}

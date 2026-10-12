@@ -1,0 +1,39 @@
+# One-command VPS deploy: docker compose up -d --build
+# Run on any server with Docker + Docker Compose
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - CB_MODEL=nano
+      - CB_DEVICE=cpu
+      - CB_EAGER_LOAD=1
+      - CB_DATA_DIR=/data
+      - CB_CORS_ORIGINS=*
+    volumes:
+      - voira_data:/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/voices"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_API_URL=http://backend:8000
+    depends_on:
+      backend:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  voira_data:

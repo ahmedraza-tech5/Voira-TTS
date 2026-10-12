@@ -1,0 +1,10 @@
+{
+  "id": "studio_zara",
+  "name": "Zara",
+  "description": "Indian-English female \u2014 crisp, elegant and expressive. Great for explainers, brands & Hindi content.",
+  "kind": "preset",
+  "created_at": 1791760520.5457966,
+  "duration_s": 16.718,
+  "sort_order": 13,
+  "generator": "kokoro-82m-int8"
+}

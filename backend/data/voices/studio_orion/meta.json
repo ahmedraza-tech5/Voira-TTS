@@ -1,0 +1,10 @@
+{
+  "id": "studio_orion",
+  "name": "Orion",
+  "description": "Deep male narrator \u2014 cinematic, authoritative and dramatic. Best for documentaries & trailers.",
+  "kind": "preset",
+  "created_at": 1791742407.705906,
+  "duration_s": 14.917,
+  "sort_order": 4,
+  "generator": "kokoro-82m-int8"
+}

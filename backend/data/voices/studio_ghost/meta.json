@@ -1,0 +1,10 @@
+{
+  "id": "studio_ghost",
+  "name": "Ghost",
+  "description": "Deep dramatic male \u2014 intense, dark and cinematic. Built for trailers, horror & true crime.",
+  "kind": "preset",
+  "created_at": 1791760522.4754791,
+  "duration_s": 13.924,
+  "sort_order": 11,
+  "generator": "kokoro-82m-int8"
+}
