@@ -1,9 +1,18 @@
-# Ignore everything except frontend for Vercel deployment
+# Vercel: Only deploy frontend (Next.js)
+# Ignore everything else including all Python/backend files
+
+# Backend & Python
 backend
-data
+backend/*
 chatterbox
-*.log
+chatterbox/*
+data
+data/*
+*.py
+*.pyc
+__pycache__
 *.sh
+*.log
 *.md
 docker-compose.yml
 DEPLOY.md
@@ -12,5 +21,21 @@ README.md
 .gitignore
 .venv
 venv
-__pycache__
-*.pyc
+.env
+.env.example
+.env.local
+warmup.py
+reinstall.py
+reinstall.sh
+install_backend.sh
+install_frontend.sh
+install_backend.log
+install_frontend.log
+reinstall.log
+warmup.log
+server.log
+e2e-server.log
+server_voices_test.log
+
+# Keep only frontend
+!frontend
