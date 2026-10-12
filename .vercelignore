@@ -1,0 +1,16 @@
+# Ignore everything except frontend for Vercel deployment
+backend
+data
+chatterbox
+*.log
+*.sh
+*.md
+docker-compose.yml
+DEPLOY.md
+README.md
+.git
+.gitignore
+.venv
+venv
+__pycache__
+*.pyc
