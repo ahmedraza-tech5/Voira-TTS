@@ -1,0 +1,52 @@
+# Root .gitignore — Voira TTS monorepo
+
+# --- dependencies & builds ---
+node_modules/
+.next/
+out/
+build/
+dist/
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# --- python ---
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# --- secrets & env ---
+.env
+.env.local
+.env.*.local
+
+# --- logs & runtime data ---
+*.log
+logs/
+backend/data/generations/*
+backend/data/uploads/*
+!backend/data/generations/.gitkeep
+!backend/data/uploads/.gitkeep
+
+# --- model weights / caches (auto-download on deploy) ---
+*.onnx
+*.ckpt
+*.safetensors
+.cache/
+.huggingface/
+
+# --- editor / os ---
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/settings.json
+*.swp

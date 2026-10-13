@@ -1,0 +1,14 @@
+# Frontend .dockerignore
+node_modules
+.next
+out
+build
+dist
+*.log
+npm-debug.log*
+.vercel
+.turbo
+coverage
+*.tsbuildinfo
+next-env.d.eslint
+.DS_Store
