@@ -31,7 +31,7 @@ ENV CB_EAGER_LOAD=1
 RUN mkdir -p /data/voices /data/generations /data/uploads
 
 # Seed preset voices into the persistent volume on first boot
-RUN printf '#!/bin/bash\nset -e\nmkdir -p /data/voices /data/generations /data/uploads\nif [ ! -f /data/voices/studio_nova/meta.json ]; then\n  echo "Seeding preset voices into /data..."\n  cp -rn /app/backend/data/voices/* /data/voices/ 2>/dev/null || true\nfi\nexec uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-8000} --workers 1\n' > /app/entrypoint.sh && chmod +x /app/entrypoint.sh
+RUN printf '#!/bin/bash\nset -e\nmkdir -p /data/voices /data/generations /data/uploads\nif [ ! -f /data/voices/studio_nova/meta.json ]; then\n  echo "Seeding preset voices into /data..."\n  cp -rn /app/backend/data/voices/* /data/voices/ 2>/dev/null || true\nfi\necho "Starting Voira TTS API on 0.0.0.0:${PORT:-8000}..."\nexec uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-8000} --workers 1 --log-config /app/backend/log_config.json\n' > /app/entrypoint.sh && chmod +x /app/entrypoint.sh
 
 EXPOSE 8000
 CMD ["/app/entrypoint.sh"]

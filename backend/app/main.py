@@ -2,6 +2,7 @@
 
 import logging
 import mimetypes
+import sys
 import threading
 from contextlib import asynccontextmanager
 from pathlib import Path
@@ -32,7 +33,13 @@ from .schemas import (
     VoiceOut,
 )
 
-logging.basicConfig(level=logging.INFO, format="%(asctime)s %(name)s %(levelname)s %(message)s")
+# Log to STDOUT: Railway/containers treat STDERR output as application errors,
+# which marks healthy startup lines (and uvicorn access logs) as red errors.
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s %(name)s %(levelname)s %(message)s",
+    stream=sys.stdout,
+)
 logger = logging.getLogger("voice_studio")
 
 
